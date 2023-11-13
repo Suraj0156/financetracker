@@ -1,6 +1,6 @@
 import { Transaction } from "firebase/firestore";
 import React from "react";
-//import transactions from "../assets/transactions.svg";
+// import transactions from "assets/transactions.svg";
 
 
 function NoTransactions() {
@@ -15,7 +15,7 @@ function NoTransactions() {
         marginBottom: "2rem",
       }}
     >
-      <img src={Transaction} style={{ width: "400px", margin: "4rem" }} />
+      <img src="assets/transactions.svg" style={{ width: "400px", margin: "4rem" }} />
       <p style={{ textAlign: "center", fontSize: "1.2rem" }}>
         You Have No Transactions Currently
       </p>
